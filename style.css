@@ -1,0 +1,74 @@
+:root{
+    --nav-blue:#0D3875;
+    --body-blue2:#1C7BFF;
+    --secundary-blue:#1a9af7;
+    --off-white:#FAF8F7;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1rem;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    background: linear-gradient(207.8deg, #0D3875 20.69%, #1a9af7 100%);
+    color: var(--off-white) ;
+}
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: var(--secundary-blue) ;
+}
+.welcome{
+    color: var(--off-white);
+    font-size: 4rem;
+    margin: 20px;
+}
+.logo{
+    width: 400px;
+}
+.option{
+    margin-top: 20px;
+    font-size: 2rem;
+    color: var(--off-white);
+}
+footer{
+    height: 300px;
+    background: linear-gradient(180deg, #1a9af7 40.69%, #ffffff 100%);
+    display: flex;
+    justify-content: center;
+}
+.chip{
+
+    border-radius: 3px;
+    width: 30px;
+}
+#usuario{
+    font-size: 2rem;
+    height: 30px;
+}
+#pass{
+    font-size: 2rem;
+    height: 30px;
+}
+.data{
+    color: var(--off-white);
+    font-size: 2rem;
+}
+#btnVerifica{
+    background-color: var(--nav-blue);
+    color: var(--off-white);
+    font-size: 2rem;
+    width: 100%;
+    height: 50px;
+}
